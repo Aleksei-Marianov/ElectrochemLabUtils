@@ -74,7 +74,7 @@ VFSWV.plot_3D(x=x,
 ```
 
 **Example output and short interpretation:**
-VF-SWV analysis of CoPc/CNT composite:
+VF-SWV analysis of **CoPc/CNT** composite:
 
 2D figure:  
 <img src=VFSWV_data_prep/Example_plots/CoPc_CNT_2D_graph.png alt="drawing" width="500"/>
