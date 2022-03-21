@@ -77,9 +77,9 @@ VFSWV.plot_3D(x=x,
 VF-SWV analysis of CoPc/CNT composite:
 
 2D figure:  
-<img src=VFSWV_data_prep/Example_plots/CoPc_CNT_2D_graph.png alt="drawing" width="400"/>
+<img src=VFSWV_data_prep/Example_plots/CoPc_CNT_2D_graph.png alt="drawing" width="500"/>
 
 3D figure:  
-<img src=VFSWV_data_prep/Example_plots/CoPc_CNT_3D_graph.png alt="drawing" width="400"/>
+<img src=VFSWV_data_prep/Example_plots/CoPc_CNT_3D_graph.png alt="drawing" width="500"/>
 
 The main peaks correspond to a relatively fast 1e transfer process taking place of the surface. The additional wide band stretching across the entire frequency domain arises due to the contribution of the non-faradic currents.
