@@ -4,5 +4,5 @@ electrode sizes:
 CoPc/CNT
 CoPc(OMe)8/CNT
 
-CuO/CoPc 0.88 cm2
-CuO only 
+CuO/CoPc 0.9 cm2
+CuO only 0.8 cm2
