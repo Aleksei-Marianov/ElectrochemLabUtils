@@ -1,6 +1,10 @@
 # Plotting of the experimental electrochemical data.
 Intended to introduce students into the world of electrochemical research going on in the School of Engineering, Macquarie University. The methods will be added as soon as decently written packages become available in the group.
 
+**# !!!!! In order to use this script, you have to record the number of SWVs equal to number of entries in np.array and with PW values**
+**# equal to step times array values. Then the data for each SWV should be extracted to .txt files containing E, V and I, mA and contained**
+**# in one folder. The other files and folders could be also present in that folder.**
+
 # 1) Variable-Frequency Square Wave Voltammetry:
 Time-resolved electrochemical method allowing for the direct observation of surface electron transfer in heterogeneous electrochemical systems.
 The full description of the method is given in the paper <https://pubs.acs.org/doi/abs/10.1021/acs.analchem.1c01286>
@@ -18,6 +22,7 @@ import VFSWV_read_and_plot as VFSWV
 # electrode size
 e_size = 1.0
 
+**# !!!!! Insert path to the folder with txt files between '' instead of the current one !!!!!**
 # location of the SWV files:
 current_script_location = os.path.dirname(__file__)
 data_folder_name = "Example_data\CoPc_VFSWV_txt_data"
@@ -30,7 +35,7 @@ step_times = np.array([0.4, 0.6, 0.8, 1.0, 1.2, 1.4, 1.6, 1.8, 2.0, 2.2, 2.4, 2.
                     60, 65, 70, 75, 80, 85, 90, 95, 100, 125, 150, 175, 200, 300, 400, 500, 750, 1000, 1500])
 frequencies = 500/step_times
 
-# define a window of interest across x and y axis
+**# !!!!! Insert the values for a window of interest across x (E, V) and y axis (log f = log (1/(2*PW)))**
 e_boundary_highest, e_boundary_lowest = 0, -0.9
 log_frequency_highest, log_frequency_lowest = 3.09, -0.47
 
